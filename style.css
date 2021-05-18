@@ -1,0 +1,228 @@
+body{
+	margin: 0;
+}
+#menu{
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	background-color: white;
+	opacity: 0.7;
+
+}
+#menu a{
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+	width: 100px;
+	padding: 20px 40px;
+}
+#menu a:hover{
+	background-color: #ccc
+}
+#start{
+	background-image: url(images/polygons.png);
+	padding: 200px 0;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: white;
+	background-position: top center;
+	margin-top: 58px;
+	background-attachment: fixed;
+}
+#about img{
+	width: 400px;
+	float: right;
+	margin: 30px;
+	margin-top: 0;
+}
+#about{
+	max-width: 1200px;
+	padding: 40px 0;
+	margin: 0 auto;
+	text-align: justify;
+}
+#start a{
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	padding: 12px 24px;
+	border-radius: 10px;
+}
+#start p{
+	margin: 45px 0;
+}
+#start a:hover{
+	background-color: #B1B1B2
+}
+#about h2{
+	text-align: center;
+}
+.member{
+	display: inline-block;
+	width: 20%;
+	margin: 20px 10px;
+	border: 2px solid gray;
+	box-shadow: 0 2px 5px gray;
+	padding: 20px;
+	text-align: left;
+}
+.member img{
+	width: 100%;
+}
+#team{
+	text-align: center;
+}
+.member h3{
+	font-size: 24px;
+	font-weight: normal;
+}
+.member .position{
+	opacity: 60%;
+}
+.member a{
+	display: inline-block;
+	width: 100%;
+	background-color: #055b73;
+	color: white;
+	text-decoration: none;
+	padding: 14px 0;
+	text-align: center;
+	border-radius: 5px;
+}
+#sales{
+	background-color: #616161;
+	padding: 50px 0;
+	text-align: center;
+}
+.tarif{
+	display: inline-block;
+	width: 30%;
+	margin: 10px;
+	background-color: white;
+	padding: 0;
+	color: black;
+	min-width: 150px;
+}
+.tarif li{
+	list-style: none;
+	border-bottom: 1px solid #ddd;
+	padding: 16px 0;
+
+}
+.tarif .name{
+	background-color: black;
+	color: white;
+	font-size: 24px;
+	padding: 33px 0;
+}
+.tarif .pro{
+	background-color: #055b73;
+	padding: 48px 0;
+}
+#sales h2{
+	color: white;
+}
+#sales p{
+	color: white;
+}
+#sales .price{
+	color: black;
+	font-weight: bold;
+	font-size: 24px;
+}
+#sales .days{
+	color: black;
+	opacity: 40%;
+}
+.tarif li:last-child{
+	background-color: #f1f1f1;
+	padding: 24px 0;
+}
+.tarif a{
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	padding: 12px 24px;
+	border-radius: 10px;
+}
+.tarif a:hover{
+	background-color: white;
+	color: black;
+}
+.bold{
+	font-weight: bold;
+}
+.feedback{
+	padding-left: 30px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	margin-left: 5%;
+	text-align: left;
+}
+#contacts{
+	padding: 40px 0;
+	text-align: center;
+}
+.address{
+	background-image: url(images/address.png);
+}
+.number{
+	background-image: url(images/phone.png);
+}
+.email{
+	background-image: url(images/mail.png);
+}
+#contacts input{
+	padding: 8px;
+	width: 90%;
+}
+#contacts button{
+	background-color: black;
+	color: white;
+	padding: 8px 16px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+#contacts button:hover{
+	background-color: white;
+	color: black;
+}
+.footer{
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
